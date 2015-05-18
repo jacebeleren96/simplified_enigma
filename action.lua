@@ -69,7 +69,7 @@ function splitta(stringa)
 	end
 end
 
---fuk u
+--testo serio
 
 function rotate(array, n)
 	carry = array[1]
