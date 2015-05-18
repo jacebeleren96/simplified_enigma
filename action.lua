@@ -69,6 +69,8 @@ function splitta(stringa)
 	end
 end
 
+--fuk u
+
 function rotate(array, n)
 	carry = array[1]
 	for j = 1, n do
