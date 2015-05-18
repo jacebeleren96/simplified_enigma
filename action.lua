@@ -69,7 +69,7 @@ function splitta(stringa)
 	end
 end
 
---testo serio
+--testo serioso
 
 function rotate(array, n)
 	carry = array[1]
