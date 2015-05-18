@@ -1,14 +1,14 @@
 function on_msg_receive (msg)
     init();
     corpo = msg.text
-    corpo = corpo:upper()
+    corpo = corpo:upper() --Turns every character of the message into capital.
 	chiave = {}
 	
     if msg.out then
         return
     end
 
-    if string.starts(corpo, "CHIAVE:") then
+    if string.starts(corpo, "CHIAVE:") then --checks if the message starts with "CHIAVE:", capitalization on line 4. 
         splitta(corpo)
         if #tokens[2] ~= 3 then
         	testo = "La chiave dev'essere composta da tre caratteri."
